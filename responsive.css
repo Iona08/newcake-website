@@ -1,0 +1,134 @@
+/* Responsive Design for Mobile and Tablet */
+
+@media (max-width: 1024px) {
+  .navbar, .section-content {
+    padding: 10px;
+  }
+  .about-us {
+    padding: 60px 0px;
+  }
+  .menu-section {
+    padding: 30px 0 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    position: static;
+    padding-bottom: 0;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+  .nav-left, .nav-menu, .nav-right {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .nav-left .nav-menu {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  .nav-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .hero-section .section-content {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 60px;
+    min-height: unset;
+  }
+  .about-us .section-content {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .about-us .about-details {
+    max-width: 100%;
+  }
+  .about-us .section-content .about-image img {
+    height: 220px;
+    border-radius: 20px;
+  }
+  .menu-section .menu-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .menu-section .menu-list .menu-item {
+    width: 100%;
+    height: 220px;
+  }
+  .theme-section .menu-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .theme-section .menu-list .menu-item {
+    height: 160px;
+  }
+  .contact-us .section-content {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .contact-form, .contact-us .contact-details {
+    max-width: 100%;
+  }
+  .footer .section-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .footer .section-content .footer-links ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+  .navbar, .section-content {
+    padding: 4px;
+  }
+  .hero-section .section-content .hero-details h1,
+  .hero-section .section-content .hero-details h2 {
+    font-size: 1.2rem;
+  }
+  .about-us {
+    padding: 30px 0px;
+  }
+  .section-title {
+    padding: 30px 0px 40px;
+    font-size: 1.1rem;
+  }
+  .about-us .section-content .about-image img {
+    height: 120px;
+    border-radius: 10px;
+  }
+  .menu-section .menu-list .menu-item {
+    height: 120px;
+  }
+  .theme-section .menu-list .menu-item {
+    height: 80px;
+  }
+  .contact-form form input, textarea {
+    height: 36px;
+    font-size: 0.9rem;
+    margin-bottom: 14px;
+  }
+  textarea {
+    height: 60px;
+  }
+  .footer {
+    padding: 10px 5px;
+  }
+}
+
+/* END OF RESPONSIVE MEDIA QUERIES */
